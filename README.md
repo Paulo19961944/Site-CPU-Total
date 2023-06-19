@@ -7,7 +7,7 @@ Esse site consome CPU apenas ao rodar ele. Para testar digite Windows + R e digi
 
 # Caso o PC trave
 
-Clique com o Botão direito no seu navegador e clique em Finalizar Tarefa
+Clique com o Botão direito no seu navegador lá no Gerenciador de Tarefas e clique em Finalizar Tarefa
 
 
 # Muito Obrigado :) :) :)
