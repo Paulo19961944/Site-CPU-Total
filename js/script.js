@@ -19,7 +19,28 @@ function Calcular() {
 
 }
 
+function API(){
+    // Fazendo uma requisição HTTP para a API
+fetch('https://api.chucknorris.io/jokes/random')
+  .then(response => response.json())
+  .then(data => {
+    // Extraindo a piada da resposta da API
+    const joke = data.value;
+
+    // Exibindo a piada no console ou em algum elemento HTML da sua página
+    console.log(joke);
+    // ou
+    // document.getElementById('joke').innerText = joke;
+  })
+  .catch(error => {
+    console.log('Ocorreu um erro ao obter a piada:', error);
+  });
+
+}
+
 
 while(true){
     Calcular()
+    API()
+    
 }
